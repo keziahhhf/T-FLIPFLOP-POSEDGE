@@ -28,8 +28,8 @@ From the above characteristic table, we can directly write the next state equati
 
 **Procedure**
 DEVELOPED BY:F.Keziah 212223040094
-
-```module T_FLIPFLOP( input clk, rst_n, input t,
+```
+module T_FLIPFLOP( input clk, rst_n, input t,
 output reg q,
 output q_bar
 );
@@ -45,7 +45,8 @@ if(!rst_n)
  end
  
 assign q_bar = ~q;
-endmodule```
+endmodule
+```
 
 **PROGRAM**
 
